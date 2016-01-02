@@ -1,0 +1,21 @@
+{
+  "name": "jekyllfied-portfolio",
+  "homepage": "https://github.com/tabreturn/jekyllfied-portfolio",
+  "authors": [
+    "tabreturn <github@tabreturn.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "lightbox2": "~2.8.2"
+  }
+}
