@@ -4,20 +4,37 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
 
-  <ul class="post-list">
+
     {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-        <div>
-          {{ post.content }}
-        </div>
-      </li>
+
+        
+<div class="entryContainer">
+  <div class="entryInfo">
+    <h2>{{ post.date | date: "%b %-d, %Y" }}</h2>
+    <a href="http://recomed.co.za">view website</a>
+    <h3>{{ post.date }}</h3>
+    <p>
+      {{ post.content }}
+    </p>
+    <p class="media">
+    Developed white-label support for Recomed front-end. Front-end runs on 
+    Python (Flask), integrated with SASS, Bootstrap, and various JS libraries.
+    </p>
+  </div>
+  <div class="entryImage"><img src="images/web-recomed_whitelabel.png" alt="RecoMed white-label" /></div>
+</div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
     {% endfor %}
   </ul>
 
