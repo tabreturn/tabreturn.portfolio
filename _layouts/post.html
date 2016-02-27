@@ -4,16 +4,15 @@ layout: default
 
 <div class="entryContainer">
   <div class="entryInfo">
-    <h2>{{ page.title }}</h2>
+    <h2>{{ post.title }}</h2>
     <a href="http://recomed.co.za">view website</a>
-    <h3>{{ page.date }}</h3>
+    <h3>{{ post.date | date: "%Y.%m" }}</h3>
     <p>
-      {{ content }}
+      {{ post.content }}
     </p>
     <p class="media">
-    Developed white-label support for Recomed front-end. Front-end runs on 
-    Python (Flask), integrated with SASS, Bootstrap, and various JS libraries.
+      {{ post.media }}
     </p>
   </div>
-  <div class="entryImage"><img src="images/web-recomed_whitelabel.png" alt="RecoMed white-label" /></div>
+  <div class="entryImage"><img src="{{ post.image }}" alt="{{ post.alt }}" /></div>
 </div>
