@@ -1,45 +1,27 @@
-<header class="site-header">
+<div class="wrapper">
 
-  <div class="wrapper">
+  <nav class="site-nav">
 
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+    <div class="trigger">
+      {% for my_page in site.pages %}
+        {% if my_page.title %}
+        <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </nav>
 
-    <nav class="site-nav">
+</div>
 
-      <div class="trigger">
-        {% for my_page in site.pages %}
-          {% if my_page.title %}
-          <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
-          {% endif %}
-        {% endfor %}
-      </div>
-    </nav>
-
-  </div>
-
-</header>
-
-{% for category in site.categories %}
-  {{ category[0] }}
-{% endfor %}
-
-
-
-
-
-<div id="header">
+<header>
   <h1>t@breturn</h1>
   coder<strike>/designer/lecturer</strike>
   <ul id="mainNav">
-    <li><a href="/" class="sel">latest</a></li>
-    <li><a href="research.html">research</a></li>
-    <li><a href="illustration.html">illustration</a></li>
-    <li><a href="identity.html">id</a></li>
-    <li><a href="print.html">print</a></li>
-    <li><a href="web.html">web</a></li>
+    {% for category in site.categories %}
+      <li><a href="{{ category[0] }}.html" class="sel">{{ category[0] }}</a></li>
+    {% endfor %}
     <li><a href="https://github.com/tabreturn">github</a></li>
-    cv
+    <li><a href="cv.pdf">cv</a></li>
   </ul>
-</div>
-
+</header>
 <br style="clear:both" />
