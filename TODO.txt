@@ -1,3 +1,2 @@
 * hook up js
-* add about info
 * hamburger menu for mobile

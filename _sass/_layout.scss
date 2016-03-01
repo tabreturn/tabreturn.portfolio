@@ -44,6 +44,17 @@ header {
   }
 }
 
+.introContainer {
+  @extend .entryContainer;
+  font-size: 0.85em;
+  line-height: 1.75em;
+
+  + h1 {
+    padding: 0 0 0.8em 12px;
+    font-size: 1.25em;
+  }
+}
+
 .entryContainer {  
   border-top: 1px solid $color-base-dark;
   max-width: 786px;
@@ -70,6 +81,7 @@ header {
   .entryImage {
     max-width: 500px;
     float: left;
+    padding: 0.2em 0;
     
     img {
       border: 5px solid $color-base-darker;
