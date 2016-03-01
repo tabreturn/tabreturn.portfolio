@@ -2,16 +2,6 @@
 layout: default
 title:  latest
 ---
-
-TEST:<br/>
-<a href="images/full_view/identity-3d_logos.jpg" data-lightbox="image-1">
-<img src="images/identity-3d_logos.jpg"/>
-</a>
-<a href="images/full_view/identity-3d_logos.jpg" data-lightbox="image-2">
-<img src="images/identity-3d_logos.jpg"/>
-</a>
-
-
 <div class="introContainer">
   <p>
   Welcome to the portfolio website of Tristan Bunn.
@@ -24,10 +14,15 @@ TEST:<br/>
   various Cape Town based tech startups.
   </p>
   <p>
-  He's developed into an accomplished coder and designer -- obtaining a BTech 
-  in Graphic Design and Masters degree in Information Technology, in the 
-  process -- and is currently involved in lecturing, research, and front-end 
-  development work.
+  Along the way, he's developed into an accomplished coder and designer --
+  obtaining a BTech in Graphic Design and a Masters degree in Information
+  Technology in the process -- and is currently involved in lecturing,
+  research, and front-end development work.
+  </p>
+  <p>
+  He currently resides in Wellington, New Zealand. You can contact him via
+  email:<br />
+  <a href="mailto:portfolio@tabreturn.com">portfolio@tabreturn.com</a>
   </p>
 </div>
 
@@ -38,7 +33,7 @@ TEST:<br/>
     <div class="entryInfo">
       <h2>{{ post.title }}</h2>
       {% if post.view %}
-        <a href="{{post.view}}">view</a>
+        <a href="{{ post.view }}">view</a>
       {% endif %}
       <h3>{{ post.date | date: "%Y.%m" }}</h3>
       {{ post.content }}
