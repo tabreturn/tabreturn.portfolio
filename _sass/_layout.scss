@@ -12,7 +12,7 @@ header {
   overflow: hidden;
   
   em {
-      font-size: 0.8em;
+      color: $color-base-dark;
       position: relative;
       top: -0.5em;
   }
@@ -45,7 +45,7 @@ header {
 }
 
 .entryContainer {  
-  border-top: 1px solid $color-base-darker;
+  border-top: 1px solid $color-base-dark;
   max-width: 786px;
   overflow: hidden;
   padding: 12px 0 8px 0;
@@ -92,6 +92,7 @@ header {
     text-align: center;
     
     em {
+      font-size: 0.8em;
       top: -1em;
     }
   }
