@@ -1,3 +1,4 @@
 * add post view paths
+* hook up js
 * add about info
 * fix responsive sass
