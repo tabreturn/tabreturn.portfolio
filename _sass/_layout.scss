@@ -10,6 +10,12 @@ header {
   padding: 12px;
   padding-bottom: 0;
   overflow: hidden;
+  
+  em {
+      font-size: 0.8em;
+      position: relative;
+      top: -0.5em;
+  }
 }
 
 #mainNav {  
@@ -19,8 +25,9 @@ header {
   
   li {
     margin: 0;
-    padding: 2px 12px 2px 0;
-    display: inline-block;
+    padding: 2px 8px;
+    display: block;
+    float: right;
     list-style-type: none;
     
     &:hover {
@@ -81,10 +88,14 @@ header {
 
 @media all and (max-width:$desktop) {
   
-  #header {
+  header {
     text-align: center;
+    
+    em {
+      top: -1em;
+    }
   }
-
+  
   #wrapper {
     max-width: 522px;
   }
@@ -94,6 +105,8 @@ header {
     font-size: 0.8em;
     
     li {
+      float: none;
+      display: inline;
       line-height: 2em;
     }
   }
