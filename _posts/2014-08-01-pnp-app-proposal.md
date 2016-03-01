@@ -1,5 +1,5 @@
 ---
-categories: latest web
+categories: web
 image:      images/web-pnp.gif
 media:      UI/UX Design.
 ---

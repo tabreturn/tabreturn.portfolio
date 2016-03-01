@@ -10,12 +10,6 @@ header {
   padding: 12px;
   padding-bottom: 0;
   overflow: hidden;
-  
-  strike {
-    color: $color-base-dark;
-    text-decoration: none;
-    font-style: normal;
-  }
 }
 
 #mainNav {  
@@ -25,10 +19,9 @@ header {
   
   li {
     margin: 0;
-    padding: 2px 12px;
-    display: block;
+    padding: 2px 12px 2px 0;
+    display: inline-block;
     list-style-type: none;
-    float: right;
     
     &:hover {
       background-color: $color-base-dark;
@@ -96,10 +89,13 @@ header {
     max-width: 522px;
   }
   
-  #mainNav li {
-    float: none;
-    display: inline;
-    line-height: 2em;
+  #mainNav {
+    text-align: center;
+    font-size: 0.8em;
+    
+    li {
+      line-height: 2em;
+    }
   }
   
   .entryContainer {

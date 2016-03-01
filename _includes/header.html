@@ -1,24 +1,9 @@
-<div class="wrapper">
-
-  <nav class="site-nav">
-
-    <div class="trigger">
-      {% for my_page in site.pages %}
-        {% if my_page.title %}
-        <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
-        {% endif %}
-      {% endfor %}
-    </div>
-  </nav>
-
-</div>
-
 <header>
   <h1>t@breturn</h1>
-  coder<strike>/designer/lecturer</strike>
   <ul id="mainNav">
+    <li><a href="about.html" {% if page.title == 'latest' %}class="sel"{% endif %}>about</a></li>
     {% for category in site.categories %}
-      <li><a href="{{ category[0] }}.html" class="sel">{{ category[0] }}</a></li>
+      <li><a href="{{ category[0] }}.html" {% if page.title == category[0] %}class="sel"{% endif %}>{{ category[0] }}</a></li>
     {% endfor %}
     <li><a href="https://github.com/tabreturn">github</a></li>
     <li><a href="cv.pdf">cv</a></li>

@@ -1,5 +1,5 @@
 ---
-categories: latest illustration
+categories: illustration
 image:      images/illustration-d_c.jpg
 media:      Digital illustration.
 ---

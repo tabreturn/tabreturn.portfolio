@@ -1,2 +1,3 @@
-* Add CV link
-* Add About info
+* add post view paths
+* add about info
+* fix responsive sass

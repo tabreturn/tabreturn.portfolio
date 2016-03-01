@@ -1,5 +1,5 @@
 ---
-categories: latest research
+categories: research
 image:      images/illustration-coffee_table.jpg
 media:      Plywood and adhesive vinyl.
 ---
