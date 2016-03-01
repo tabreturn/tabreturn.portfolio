@@ -5,7 +5,7 @@
     "tabreturn <github@tabreturn.com>"
   ],
   "description": "",
-  "main": "",
+  "main": "_includes/head.html",
   "moduleType": [],
   "license": "MIT",
   "ignore": [
@@ -16,6 +16,6 @@
     "tests"
   ],
   "dependencies": {
-    "lightbox2": "~2.8.2"
+    "lightbox2": "^2.8.2"
   }
 }

@@ -1,2 +1,1 @@
-* hook up js
-* hamburger menu for mobile
+* configure lightbox for image links
