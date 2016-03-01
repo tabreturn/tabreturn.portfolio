@@ -2,3 +2,4 @@
 * hook up js
 * add about info
 * fix responsive sass
+* hamburger menu for mobile
