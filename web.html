@@ -7,7 +7,9 @@ title:  web
     <div class="entryContainer">
       <div class="entryInfo">
         <h2>{{ post.title }}</h2>
-        <a href="http://recomed.co.za">view website</a>
+        {% if post.view %}
+          <a href="{{post.view}}">view</a>
+        {% endif %}
         <h3>{{ post.date | date: "%Y.%m" }}</h3>
         {{ post.content }}
         <p class="media">

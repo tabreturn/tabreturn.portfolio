@@ -1,6 +1,7 @@
 ---
 categories: research
-image:      images/illustration-coffee_table.jpg
+image:      images/research-coffee_table.jpg
+view:       images/full_view/research-coffee_table.jpg
 media:      Plywood and adhesive vinyl.
 ---
 A coffee table I designed and built; made to look like it was constructed from 
