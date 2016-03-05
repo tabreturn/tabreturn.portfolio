@@ -3,20 +3,7 @@ layout: default
 title:  id
 ---
 {% for post in site.posts %}
-    {% if post.categories[0] == "id" %}
-    <div class="entryContainer">
-      <div class="entryInfo">
-        <h2>{{ post.title | downcase }}</h2>
-        {% if post.view %}
-          <a href="{{ post.view }}" {% if post.type == 'img' %} data-lightbox="{{ post.title }}" {% endif %} >view</a>
-        {% endif %}
-        <h3>{{ post.date | date: "%Y.%m" }}</h3>
-        {{ post.content }}
-        <p class="media">
-          {{ post.media }}
-        </p>
-      </div>
-      <div class="entryImage"><img src="{{ post.image }}" alt="{{ post.title }}" /></div>
-    </div>
+  {% if post.categories[0] == "id" %}
+    {% include post.html %}
   {% endif %}
 {% endfor %}
