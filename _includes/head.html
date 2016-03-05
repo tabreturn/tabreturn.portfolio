@@ -1,7 +1,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{% if page.title %}{{ page.title }} -- {% endif %}{{ site.title }}</title>
+  <title>{{ site.title }} // {% if page.title %}{{ page.title }}{% endif %}</title>
   <meta name="description" content="coder/designer/lecturer">
   <link rel="icon" type="image/gif" href="favicon.gif" />
   <link rel="stylesheet" href="{{ 'css/main.css' | prepend: site.baseurl }}">
