@@ -6,7 +6,7 @@ title:  research
   {% if post.categories[0] == "research" %}
     <div class="entryContainer">
       <div class="entryInfo">
-        <h2>{{ post.title }}</h2>
+        <h2>{{ post.title | downcase }}</h2>
         {% if post.view %}
           <a href="{{ post.view }}" {% if post.type == 'img' %} data-lightbox="{{ post.title }}" {% endif %} >view</a>
         {% endif %}
