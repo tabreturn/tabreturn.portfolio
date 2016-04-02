@@ -1,5 +1,5 @@
 ---
-categories: print
+categories: id
 image:      images/identity-signature_online.gif
 media:      CMYK, bronze foil, matte-laminated.
 ---
