@@ -10,37 +10,73 @@ header {
   padding: 12px;
   padding-bottom: 0;
   overflow: hidden;
-  
+
   em {
-      color: $color-base-dark;
-      position: relative;
-      top: -0.5em;
+    color: $color-base-dark;
+    position: relative;
+    top: -0.5em;
   }
 }
 
-#mainNav {  
+#mainNav {
   margin: 0;
   margin-top: 1em;
   padding: 0;
-  
+
   li {
     margin: 0;
     padding: 2px 8px;
     display: block;
     float: right;
     list-style-type: none;
-    
+
     &:hover {
       background-color: $color-base-dark;
     }
-    
+
     &:hover a {
       color: #FFF;
     }
   }
-  
+
   .sel {
     text-decoration: underline;
+  }
+}
+
+.entryContainer {
+  border-top: 1px solid $color-base-dark;
+  max-width: 786px;
+  overflow: hidden;
+  padding: 12px 0 8px 0;
+  margin-left: auto;
+  margin-right: auto;
+
+  .entryInfo {
+    width: 264px;
+    float: left;
+    padding-right: 12px;
+    cursor: default;
+  }
+
+  .entryInfo p, .entryInfo a {
+    font-size: 0.75em;
+  }
+
+  .media {
+    font-style: italic;
+  }
+
+  .entryImage {
+    max-width: 500px;
+    float: left;
+    padding: 0.2em 0;
+
+    img {
+      border: 5px solid $color-base-darker;
+      max-width: 500px;
+      width: 100%;
+    }
   }
 }
 
@@ -48,52 +84,17 @@ header {
   @extend .entryContainer;
   font-size: 0.85em;
   line-height: 1.75em;
-  
+  padding: 2em 3em;
+
   > p:first-child {
     font-size: 1.2em;
     margin-bottom: 2em;
     letter-spacing: 0.025em
   }
-  
+
   + h1 {
     padding: 0 0 0.8em 12px;
     font-size: 1.25em;
-  }
-}
-
-.entryContainer {  
-  border-top: 1px solid $color-base-dark;
-  max-width: 786px;
-  overflow: hidden;
-  padding: 12px 0 8px 0;
-  margin-left: auto;
-  margin-right: auto;
-  
-  .entryInfo {
-    width: 264px;
-    float: left;
-    padding-right: 12px;
-    cursor: default;
-  }
-  
-  .entryInfo p, .entryInfo a {
-    font-size: 0.75em;
-  }
-  
-  .media {
-    font-style: italic;
-  }
-  
-  .entryImage {
-    max-width: 500px;
-    float: left;
-    padding: 0.2em 0;
-    
-    img {
-      border: 5px solid $color-base-darker;
-      max-width: 500px;
-      width: 100%;
-    }
   }
 }
 
@@ -105,41 +106,41 @@ header {
 }
 
 @media all and (max-width:$desktop) {
-  
+
   header {
     text-align: center;
-    
+
     em {
       font-size: 0.8em;
       top: -1em;
     }
   }
-  
+
   #wrapper {
     max-width: 522px;
   }
-  
+
   #mainNav {
     text-align: center;
     font-size: 0.8em;
-    
+
     li {
       float: none;
       display: inline;
       line-height: 2em;
     }
   }
-  
+
   .entryContainer {
     padding-right: 12px;
     padding-bottom: 1.5em;
     margin: 0 12px;
-    
+
     .entryInfo {
       width: 100%;
     }
   }
-  
+
   #top {
     text-align: center;
   }
