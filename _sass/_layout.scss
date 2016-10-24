@@ -80,24 +80,6 @@ header {
   }
 }
 
-.introContainer {
-  @extend .entryContainer;
-  font-size: 0.85em;
-  line-height: 1.75em;
-  padding: 2em 3em;
-
-  > p:first-child {
-    font-size: 1.2em;
-    margin-bottom: 2em;
-    letter-spacing: 0.025em
-  }
-
-  + h1 {
-    padding: 0 0 0.8em 12px;
-    font-size: 1.25em;
-  }
-}
-
 #top {
   font-family: $font-head;
   display: block;
@@ -143,5 +125,23 @@ header {
 
   #top {
     text-align: center;
+  }
+}
+
+.introContainer {
+  @extend .entryContainer;
+  font-size: 0.85em;
+  line-height: 1.75em;
+  padding: 2em 3em;
+
+  > p:first-child {
+    font-size: 1.2em;
+    margin-bottom: 2em;
+    letter-spacing: 0.025em
+  }
+
+  + h1 {
+    padding: 0 0 0.8em 12px;
+    font-size: 1.25em;
   }
 }
