@@ -6,4 +6,19 @@
   <link rel="icon" type="image/gif" href="favicon.gif" />
   <link rel="stylesheet" href="{{ 'css/main.css' | prepend: site.baseurl }}">
   <link href="bower_components/lightbox2/dist/css/lightbox.min.css" rel="stylesheet">
+
+  <!-- Piwik -->
+  <script type="text/javascript">
+    var _paq = _paq || [];
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+      var u="//piwik.tabreturn.com/";
+      _paq.push(['setTrackerUrl', u+'piwik.php']);
+      _paq.push(['setSiteId', '1']);
+      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+      g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+    })();
+  </script>
+  <noscript><p><img src="//piwik.tabreturn.com/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
 </head>
