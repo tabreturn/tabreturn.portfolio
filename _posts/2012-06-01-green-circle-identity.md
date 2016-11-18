@@ -1,6 +1,6 @@
 ---
 categories: id
 image:      images/identity-green_circle.gif
-media:      print and digital branding.
+media:      Print and digital branding.
 ---
-A logo design for a shop specialising in second-hand goods. 
+A logo design for a shop specialising in second-hand goods.
