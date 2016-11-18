@@ -3,17 +3,9 @@
 ---
 @charset "utf-8";
 
-@font-face {
-  font-family: 'Share Tech Mono';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Share Tech Mono'), 
-       local('ShareTechMono-Regular'), 
-       url(http://fonts.gstatic.com/s/sharetechmono/v4/RQxK-3RA0Lnf3gnnnNrAsYdJ2JT0J65PSe7wdxAnx_I.woff2) format('woff2'), 
-       url(http://fonts.gstatic.com/s/sharetechmono/v4/RQxK-3RA0Lnf3gnnnNrAsUYuTAAIFFn5GTWtryCmBQ4.woff) format('woff');
-}
+@import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono');
 
-$font-head:         'Share Tech Mono', Arial, Helvetica, sans-serif;
+$font-head:         'Share Tech Mono', monospace;
 $font-body:         Arial, Helvetica, sans-serif;
 
 $color-accent:      #F30;
