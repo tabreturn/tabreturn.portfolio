@@ -1,7 +1,7 @@
 ---
 categories: illustration
-image:      images/illustration-d_c.jpg
-view:       images/full_view/illustration-d_c.jpg
+image:      images/illustration-d_c.png
+view:       images/full_view/illustration-d_c.png
 type:       img
 media:      Digital illustration.
 ---

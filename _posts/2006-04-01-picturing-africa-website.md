@@ -1,6 +1,6 @@
 ---
 categories: web
-image:      images/web-picturing_africa.jpg
+image:      images/web-picturing_africa.png
 media:      Designed and coded coded using HTML and CSS. Back-end to be
             implemented by a third party. 
 ---

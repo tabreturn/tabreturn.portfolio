@@ -1,6 +1,6 @@
 ---
 categories: id
-image:      images/identity-kartal.jpg
+image:      images/identity-kartal.png
 media:      CMYK, matte-laminated.
 ---
 Kartal is a clothing/apparel company, as well as agents for a number of

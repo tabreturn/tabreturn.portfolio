@@ -1,7 +1,7 @@
 ---
 categories: illustration
-image:      images/illustration-kartal_game_over.jpg
-view:       images/full_view/illustration-kartal_game_over.jpg
+image:      images/illustration-kartal_game_over.png
+view:       images/full_view/illustration-kartal_game_over.png
 type:       img
 media:      A mixture of 3d, raster, generative design, and vector illustration.
 ---

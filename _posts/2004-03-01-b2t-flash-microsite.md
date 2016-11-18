@@ -1,6 +1,6 @@
 ---
 categories: web
-image:      images/web-b2t.jpg
+image:      images/web-b2t.png
 media:      Designed using Flash. Makes full use of Flash's interactive, 
             animated, and audio capabilities. 
 ---
