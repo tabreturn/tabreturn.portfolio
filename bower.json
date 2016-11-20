@@ -16,6 +16,6 @@
     "tests"
   ],
   "dependencies": {
-    "lightbox2": "^2.8.2"
+    "lightbox2": "^2.9.0"
   }
 }
