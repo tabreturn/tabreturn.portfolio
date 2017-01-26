@@ -3,7 +3,7 @@ Jekyll-converted portfolio website
 
 ![screenshot](screenshot.png)
 
-[demo]http://portfolio.tabreturn.com/
+[demo](http://portfolio.tabreturn.com/)
 
 ## todo
 * responsive images
