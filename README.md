@@ -5,6 +5,6 @@ Jekyll-converted portfolio website
 
 [demo](http://portfolio.tabreturn.com/)
 
-## todo
+## to-do
 * responsive images
 * lightbox loader icon
