@@ -1,7 +1,7 @@
 ---
 categories: illustration
-image:      images/illustration-maya_robot.png
-view:       images/full_view/illustration-maya_robot.png
+image:      images/maya-robot.png
+view:       images/full_view/maya-robot.png
 type:       img
 media:      Modelled and rendered in Maya.
 ---

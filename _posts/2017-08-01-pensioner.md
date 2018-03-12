@@ -1,6 +1,6 @@
 ---
 categories: research
-image:      images/research-pensioner.png
+image:      images/pensioner.png
 view:       https://github.com/tabreturn/pensioner
 type:       url
 media:      JavaScript.

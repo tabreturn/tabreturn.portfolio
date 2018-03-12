@@ -1,7 +1,7 @@
 ---
 categories: research
-image:      images/research-coffee_table.png
-view:       images/full_view/research-coffee_table.png
+image:      images/retro-gaming-cabinet-coffee-table.png
+view:       images/full_view/retro-gaming-cabinet-coffee-table.png
 type:       img
 media:      Plywood and adhesive vinyl.
 ---

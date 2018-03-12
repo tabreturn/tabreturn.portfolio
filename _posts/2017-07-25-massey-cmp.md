@@ -1,6 +1,6 @@
 ---
 categories: illustration
-image:      images/illustration-massey_cmp.png
+image:      images/massey-cmp.png
 media:      A mixture of raster and vector illustration.
 ---
 Promotional artwork for Massey University's Creative Media Production program.

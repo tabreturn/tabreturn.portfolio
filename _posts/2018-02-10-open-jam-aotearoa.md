@@ -1,6 +1,6 @@
 ---
 categories: web
-image:      images/web-open_jam_aotearoa.png
+image:      images/open-jam-aotearoa.png
 view:       https://openjam.cmp.ac.nz/
 type:       url
 media:      Designed and coded using HTML, CSS, and a little PHP.

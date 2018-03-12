@@ -1,7 +1,7 @@
 ---
 categories: id
-image:      images/identity-signature_online.png
+image:      images/signature-online-identity.png
 media:      CMYK, bronze foil, matte-laminated.
 ---
-Signature Online offer quality serviced apartments to discerning travellers and 
-business people. 
+Signature Online offer quality serviced apartments to discerning travellers and
+business people.

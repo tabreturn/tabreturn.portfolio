@@ -1,6 +1,6 @@
 ---
 categories: web
-image:      images/web-immersion.png
+image:      images/immersion-website.png
 media:      Designed and coded using HTML, CSS, and Flash.
 ---
 Immersion offers development and corporate training, specifically in areas of

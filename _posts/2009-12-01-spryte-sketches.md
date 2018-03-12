@@ -1,6 +1,6 @@
 ---
 categories: research
-image:      images/research-spryte_sketches.png
+image:      images/spryte-sketches.png
 media:      Code art.
 ---
 A few sketches coded in Spryte/Shoebot.

@@ -1,6 +1,6 @@
 ---
 categories: id
-image:      images/identity-john_montanari.png
+image:      images/john_montanari-identity.png
 media:      CMYK, matte-laminated.
 ---
-A welder. 
+A welder.

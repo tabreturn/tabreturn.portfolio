@@ -1,7 +1,7 @@
 ---
 categories: illustration
-image:      images/illustration-d_c.png
-view:       images/full_view/illustration-d_c.png
+image:      images/deadbolt-&-chuckie.png
+view:       images/full_view/deadbolt-&-chuckie.png
 type:       img
 media:      Digital illustration.
 ---

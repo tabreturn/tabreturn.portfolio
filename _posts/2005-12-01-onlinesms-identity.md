@@ -1,6 +1,6 @@
 ---
 categories: id
-image:      images/identity-onlinesms.png
+image:      images/onlinesms-identity.png
 media:      CMYK, matte-laminated.
 ---
 A bulk SMS provider.
