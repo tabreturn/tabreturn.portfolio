@@ -1,38 +1,42 @@
 body, html {
-  padding: 0;
-  margin: 0;
   background-color: $color-base;
-  font-family: $font-body;
-  color: $color-base-darker;
+  background-image: url('bg.png');
+  background-position: center;
+  color: $color-base-lighter;
+  font-family: $font-sans;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
 }
 
 body {
-  border-top: 5px solid $color-base-darker;
-  line-height: 1.25em;
+  border-top: 5px solid $color-secondary;
+  line-height: 1.4em;
 }
 
 a {
-  color: $color-accent;
+  color: $color-primary;
   text-decoration: none;
-  
+
   &:hover {
     text-decoration: underline;
   }
 }
 
 h2 {
-  font-family: $font-head;
+  color: $color-secondary;
+  font-family: $font-mono;
   font-size: 0.85em;
   margin: 0;
   margin-top: 12px;
-  color: $color-base-darker;
 }
 
 h3 {
-  font-size: 0.75em;
+  color: $color-base-light;
+  font-family: $font-mono;
+  font-size: 0.9em;
   font-style: italic;
   margin: 0;
-  color: $color-base-dark;
 }
 
 img {

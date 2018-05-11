@@ -1,37 +1,56 @@
 #wrapper {
-  max-width: 812px;
   margin-left: auto;
   margin-right: auto;
+  max-width: 812px;
   min-height: 350px;
 }
 
 header {
-  font-family: $font-head;
+  font-family: $font-mono;
   padding: 12px;
   padding-bottom: 0;
   overflow: hidden;
 
   em {
-    color: $color-base-dark;
+    color: $color-base-light;
     position: relative;
-    top: -0.5em;
+    top: -0.9em;
+  }
+
+  .logo {
+    background-color: $color-secondary;
+    background-image: url('logo.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 55%;
+    border-right: 1px solid $color-secondary;
+    float: left;
+    height: 75px;
+    margin-right: 1em;
+    margin-top: -12px;
+    width: 75px;
+  }
+
+  .tabreturn {
+    float: left;
+    margin-top: -1em;
   }
 }
 
 #mainNav {
+  float: right;
   margin: 0;
   margin-top: 1em;
   padding: 0;
 
   li {
+    display: block;
+    list-style-type: none;
     margin: 0;
     padding: 2px 8px;
-    display: block;
-    float: right;
-    list-style-type: none;
 
     &:hover {
-      background-color: $color-base-dark;
+      background-color: $color-base-light;
     }
 
     &:hover a {
@@ -45,21 +64,30 @@ header {
 }
 
 .entryContainer {
-  border-top: 1px solid $color-base-dark;
+  font-family: $font-mono;
+  margin-left: auto;
+  margin-right: auto;
   max-width: 786px;
   overflow: hidden;
   padding: 12px 0 8px 0;
-  margin-left: auto;
-  margin-right: auto;
+
+  &:before {
+    content: ">> ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------";
+  }
+
+  &:first-of-type {
+    margin-top: -1em;
+  }
 
   .entryInfo {
-    width: 264px;
-    float: left;
-    padding-right: 12px;
     cursor: default;
+    float: left;
+    padding-right: 20px;
+    width: 256px;
   }
 
   .entryInfo p, .entryInfo a {
+    font-family: $font-sans;
     font-size: 0.75em;
   }
 
@@ -68,23 +96,23 @@ header {
   }
 
   .entryImage {
-    max-width: 500px;
     float: left;
+    max-width: 500px;
     padding: 0.2em 0;
 
     img {
-      border: 5px solid $color-base-darker;
-      max-width: 500px;
+      border: 8px solid #1c1c1c;//$color-base-light;
+      max-width: 492px;
       width: 100%;
     }
   }
 }
 
 #top {
-  font-family: $font-head;
   display: block;
-  text-align: right;
+  font-family: $font-mono;
   padding: 1em;
+  text-align: right;
 }
 
 @media all and (max-width:$desktop) {
@@ -94,7 +122,7 @@ header {
 
     em {
       font-size: 0.8em;
-      top: -1em;
+      top: -1.5em;
     }
   }
 
@@ -103,21 +131,21 @@ header {
   }
 
   #mainNav {
-    text-align: center;
     font-size: 0.8em;
     max-width: 400px;
     margin: auto;
+    text-align: left;
 
     li {
-      float: none;
       display: inline;
+      float: none;
       line-height: 3em;
     }
   }
 
   .entryContainer {
-    padding-right: 12px;
     padding-bottom: 1.5em;
+    padding-right: 12px;
     margin: 0 12px;
 
     .entryInfo {
@@ -132,18 +160,23 @@ header {
 
 .introContainer {
   @extend .entryContainer;
-  font-size: 0.85em;
-  line-height: 1.75em;
-  padding: 2em 3em;
+  font-family: $font-mono;
+  padding: 2em 0;
+  padding-top: 0.7em;
+
+  p {
+    font-size: 0.95em;
+    line-height: 1.75em;
+  }
 
   > p:first-child {
-    font-size: 1.2em;
-    margin-bottom: 2em;
-    letter-spacing: 0.025em
+    font-weight: bold;
   }
 
   + h1 {
-    padding: 0 0 0.8em 12px;
+    font-family: $font-mono;
     font-size: 1.25em;
+    padding-left: 0.6em;
+    margin-bottom: 0.5em;
   }
 }

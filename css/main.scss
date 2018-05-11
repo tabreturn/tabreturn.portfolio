@@ -5,13 +5,14 @@
 
 @import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono');
 
-$font-head:         'Share Tech Mono', monospace;
-$font-body:         Arial, Helvetica, sans-serif;
+$font-mono:         'Share Tech Mono', monospace;
+$font-sans:         'Share Tech Mono', monospace;//Arial, Helvetica, sans-serif;
 
-$color-accent:      #F30;
-$color-base:        #DDD;
-$color-base-dark:   darken($color-base, 15%);
-$color-base-darker: darken($color-base, 55%);
+$color-primary:      #0CF;
+$color-secondary:    #E00;
+$color-base:         #1C1C1C;
+$color-base-light:   lighten($color-base, 15%);
+$color-base-lighter: lighten($color-base, 35%);
 
 $desktop:           960px;
 

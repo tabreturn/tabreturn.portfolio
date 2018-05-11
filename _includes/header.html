@@ -1,6 +1,10 @@
 <header>
-  <h1>tabreturn</h1>
-  <em>//coder/designer/lecturer</em>
+  <div class="logo"></div>
+  <div class="tabreturn">
+    <h1>tabreturn</h1>
+    <em>//coder/designer/lecturer</em>
+  </div>
+
   <ul id="mainNav">
     <li><a href="about.html" {% if page.title == 'latest' %}class="sel"{% endif %}>about</a></li>
     {% for category in site.categories %}
@@ -11,4 +15,3 @@
     <li><a href="https://www.linkedin.com/in/tristan-bunn-918175b1/">cv</a></li>
   </ul>
 </header>
-<br style="clear:both" />
