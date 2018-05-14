@@ -95,6 +95,11 @@ header {
     font-size: 0.75em;
   }
 
+  .entryInfo a {
+    display: inline-block;
+    padding-bottom: 0.5em;
+  }
+
   .media {
     font-style: italic;
   }
@@ -105,8 +110,6 @@ header {
     padding: 0.2em 0;
 
     img {
-      border: 8px solid #1c1c1c;//$color-base-light;
-      max-width: 492px;
       width: 100%;
     }
   }
@@ -149,7 +152,6 @@ header {
 
   .entryContainer {
     padding-bottom: 1.5em;
-    padding-right: 12px;
     margin: 0 12px;
 
     &::before {
