@@ -192,3 +192,18 @@ header {
     margin-bottom: 0.5em;
   }
 }
+
+.lb-outerContainer {
+  background-color: $color-base !important;
+  border-radius: 0 !important;
+
+  .lb-cancel {
+    background-image: url('loading.gif') !important;
+    background-size: 100% !important;
+  }
+
+  .lb-image {
+    border: 10px solid $color-base !important;
+    border-radius: 0 !important;
+  }
+}
