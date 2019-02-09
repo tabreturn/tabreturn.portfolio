@@ -35,6 +35,11 @@ header {
     float: left;
     margin-top: -1em;
   }
+
+  &:hover {
+    color: white;
+    transition: color 0.3s;
+  }
 }
 
 #mainNav {
