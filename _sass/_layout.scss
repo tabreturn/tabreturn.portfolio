@@ -34,10 +34,15 @@ header {
   .tabreturn {
     float: left;
     margin-top: -1em;
+  }
 
+  .tabreturn, .tabreturn em {
+    cursor: default;
+    transition: color 0.25s;
+    
     &:hover {
       color: white;
-      transition: color 0.3s;
+      transition: color 0.25s;
     }
   }
 }
