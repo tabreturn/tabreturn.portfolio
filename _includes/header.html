@@ -7,7 +7,7 @@
 
   <ul id="mainNav">
     <li><a href="about.html" {% if page.title == 'latest' %}class="sel"{% endif %}>about</a></li>
-    {% for category in site.categories %}
+    {% for category in site.categories reversed %}
       <li><a href="{{ category[0] }}.html" {% if page.title == category[0] %}class="sel"{% endif %}>{{ category[0] }}</a></li>
     {% endfor %}
     <li><a href="https://github.com/tabreturn">github</a></li>
