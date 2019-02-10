@@ -1,5 +1,5 @@
 # tabreturn.portfolio
-Jekyll-converted portfolio website
+Jekyll portfolio template
 
 ![screenshot](screenshot.png)
 
