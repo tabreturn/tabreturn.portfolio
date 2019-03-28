@@ -3,11 +3,24 @@
 <html>
   {% include head.html %}
   <body id="home">
+    
     <div id="wrapper">
       {% include header.html %}
       {{ content }}
       {% include footer.html %}
     </div>
+
+    <script>
+    // external links open in new tab
+    var links = document.links;
+    for (var i=0, linksLength=links.length; i<linksLength; i++) {
+      if (links[i].hostname != window.location.hostname) {
+        links[i].target = '_blank';
+      }
+    }
+    </script>
+
     <script src="bower_components/lightbox2/dist/js/lightbox-plus-jquery.min.js"></script>
+
   </body>
 </html>
