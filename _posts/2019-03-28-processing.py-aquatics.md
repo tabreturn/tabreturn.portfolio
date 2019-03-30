@@ -7,4 +7,4 @@ media:      Processing.py.
 A Processing.py adaption of Lieven Menschaert's Nodebox script, "Aquatics!".
 
 The script implements Johan Gielis' Superformula equations, generating a new
-beastie with each run.
+microbial beastie with each run.
