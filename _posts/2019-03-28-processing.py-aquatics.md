@@ -2,7 +2,7 @@
 categories: research
 image:      images/processing.py-aquatics.png
 view:       https://github.com/tabreturn/processing.py-digital-aquatics
-media:      Processing.py.
+media:      Processing.py
 ---
 A Processing.py adaption of Lieven Menschaert's Nodebox script, "Aquatics!".
 

@@ -3,7 +3,7 @@ categories: illustration
 image:      images/maya-robot.png
 view:       images/full_view/maya-robot.png
 type:       img
-media:      Modelled and rendered in Maya.
+media:      Modelled & rendered in Maya
 ---
 I was fortunate enough to attend a 3D character modelling and rigging course,
 delivered by industry pro, Justin Rotolo.

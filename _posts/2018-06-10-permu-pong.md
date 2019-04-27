@@ -1,7 +1,7 @@
 ---
 categories: research
 image:      images/permu-pong.png
-media:      Processing.py + Arduino.
+media:      Processing.py + Arduino
 ---
 
 A Pong of many permutations.
