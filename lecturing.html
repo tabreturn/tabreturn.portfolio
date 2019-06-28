@@ -1,0 +1,9 @@
+---
+layout: default
+title:  lecturing
+---
+{% for post in site.posts %}
+  {% if post.categories[0] == "lecturing" %}
+    {% include post.html %}
+  {% endif %}
+{% endfor %}

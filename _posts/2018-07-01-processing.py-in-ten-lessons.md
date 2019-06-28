@@ -1,5 +1,5 @@
 ---
-categories: research
+categories: lecturing
 image:      images/processing.py-in-ten-lessons.png
 view:       https://tabreturn.github.io/#processing-reverse
 media:      eTextbook, Processing & Python
