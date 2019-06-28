@@ -42,6 +42,7 @@ header {
 
     em {
       transition: color 0.25s;
+      font-size: 0.92rem;
 
       &:hover {
         color: white;
@@ -142,7 +143,6 @@ header {
 
   header em {
     font-size: 0.8em;
-    top: -1.5em;
   }
 
   #wrapper {
