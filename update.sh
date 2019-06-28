@@ -3,4 +3,4 @@ cd tabreturn.portfolio;
 git pull;
 ~/.gem/ruby/2.5.0/bin/jekyll build;
 cd ..;
-cp -r tabreturn.portfolio/_site/about.html tabreturn.portfolio/_site/css tabreturn.portfolio/_site/favicon.png tabreturn.portfolio/_site/id.html tabreturn.portfolio/_site/illustration.html tabreturn.portfolio/_site/images tabreturn.portfolio/_site/print.html tabreturn.portfolio/_site/research.html tabreturn.portfolio/_site/web.html ./
+cp -r tabreturn.portfolio/_site/about.html tabreturn.portfolio/_site/css tabreturn.portfolio/_site/favicon.png tabreturn.portfolio/_site/id.html tabreturn.portfolio/_site/illustration.html tabreturn.portfolio/_site/images tabreturn.portfolio/_site/lecturing.html tabreturn.portfolio/_site/print.html tabreturn.portfolio/_site/research.html tabreturn.portfolio/_site/web.html ./
