@@ -36,6 +36,10 @@ header {
     float: left;
     margin-top: -1em;
 
+    h1 {
+      font-size: 1.8em;
+    }
+
     em {
       transition: color 0.25s;
 
@@ -146,7 +150,7 @@ header {
   }
 
   #mainNav {
-    font-size: 0.8em;
+    font-size: 0.9em;
     max-width: 410px;
     margin: auto;
     text-align: left;
