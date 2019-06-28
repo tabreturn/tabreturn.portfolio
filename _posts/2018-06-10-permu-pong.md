@@ -1,7 +1,8 @@
 ---
-categories: research
+categories: lecturing
 image:      images/permu-pong.png
 media:      Processing.py, Arduino
+nonfeature: true
 ---
 
 A Pong of many permutations.
