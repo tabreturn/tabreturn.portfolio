@@ -7,7 +7,7 @@
 
   <ul id="mainNav">
     <li><a href="/" {% if page.title == 'latest' %}class="sel"{% endif %}>about</a></li>
-    {% assign categories = 'research, web, lecturing, illustration, id, print' | split: ', ' %}
+    {% assign categories = 'research, web, lecturing, illustration, identity, print' | split: ', ' %}
     {% for category in categories %}
       <li><a href="{{ category }}.html" {% if page.title == category %}class="sel"{% endif %}>{{ category }}</a></li>
     {% endfor %}

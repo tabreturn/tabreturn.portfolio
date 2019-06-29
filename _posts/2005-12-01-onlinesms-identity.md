@@ -1,5 +1,5 @@
 ---
-categories: id
+categories: identity
 image:      images/onlinesms-identity.png
 media:      CMYK, matte-laminated
 ---

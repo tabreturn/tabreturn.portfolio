@@ -1,5 +1,5 @@
 ---
-categories: id
+categories: identity
 image:      images/wayke-studios-identity.png
 media:      CMYK, silver foil, matte-laminated
 ---
