@@ -1,7 +1,7 @@
 ---
 categories: research
 image:      images/pensioner.png
-view:       https://github.com/tabreturn/pensioner
+view:       https://github.com/tabreturn/webscript-pensioner
 type:       url
 media:      JavaScript
 ---

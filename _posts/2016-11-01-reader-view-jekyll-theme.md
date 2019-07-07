@@ -1,7 +1,7 @@
 ---
 categories: research
 image:      images/reader-view-jekyll-theme.png
-view:       https://tabreturn.github.io/
+view:       https://github.com/tabreturn/tabreturn.github.io
 type:       url
 media:      HTML, CSS, JavaScript, Jekyll
 ---
