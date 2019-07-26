@@ -23,6 +23,12 @@ a {
   }
 }
 
+h1 {
+  font-family: $font-mono;
+  font-size: 1.25em;
+  padding-left: 0.6em;
+}
+
 h2 {
   color: $color-secondary;
   font-family: $font-mono;

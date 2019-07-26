@@ -38,6 +38,7 @@ header {
 
     h1 {
       font-size: 1.8em;
+      padding: 0;
     }
 
     em {
@@ -96,6 +97,19 @@ header {
 
   &:first-of-type {
     margin-top: -1em;
+  }
+
+  li {
+    font-size: 0.8em;
+    margin: 0.5em 0;
+
+    &:before {
+      content: "__  ";
+    }
+  }
+
+  ul {
+    padding: 0;
   }
 
   .entryImage {
@@ -198,13 +212,6 @@ header {
 
   > p:first-child {
     font-weight: bold;
-  }
-
-  + h1 {
-    font-family: $font-mono;
-    font-size: 1.25em;
-    padding-left: 0.6em;
-    margin-bottom: 0.5em;
   }
 }
 
