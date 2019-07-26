@@ -7,11 +7,12 @@
 
   <ul id="mainNav">
     <li><a href="/" {% if page.title == 'latest' %}class="sel"{% endif %}>about</a></li>
-    {% assign categories = 'research, web, lecturing, illustration, identity, print, cv' | split: ', ' %}
+    {% assign categories = 'research, web, lecturing, illustration, identity, print' | split: ', ' %}
     {% for category in categories %}
       <li><a href="{{ category }}.html" {% if page.title == category %}class="sel"{% endif %}>{{ category }}</a></li>
     {% endfor %}
     <li><a href="https://github.com/tabreturn">github</a></li>
     <li><a href="https://tabreturn.github.io">blog</a></li>
+    <li><a href="cv.html" {% if page.title == cv %}class="sel"{% endif %}>cv</a></li>
   </ul>
 </header>
