@@ -1,4 +1,4 @@
-rm -r about.html css favicon.png identity.html illustration.html images print.html research.html web.html;
+rm -r about.html cv.html css favicon.png identity.html illustration.html images print.html research.html web.html;
 cd tabreturn.portfolio;
 git pull;
 ~/.gem/ruby/2.5.0/bin/jekyll build;
