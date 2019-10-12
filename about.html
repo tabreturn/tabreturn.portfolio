@@ -32,7 +32,7 @@ title:  latest
   </p>
 </div>
 
-<h1>latest work</h1>
+<h2>latest work</h2>
 
 {% assign featureable = site.posts | where_exp:"post", "post.nonfeature != true" %}
 {% for post in featureable limit:5 %}
