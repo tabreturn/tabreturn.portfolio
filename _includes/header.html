@@ -16,3 +16,7 @@
     <li><a href="cv.html" {% if page.title == 'cv' %}class="sel"{% endif %}>cv</a></li>
   </ul>
 </header>
+
+{% if page.title != 'latest' %}
+<h1 id="pageTitle">{{ page.title }}</h1>
+{% endif %}

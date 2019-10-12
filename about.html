@@ -3,7 +3,7 @@ layout: default
 title:  latest
 ---
 <div class="introContainer">
-  <h1>Welcome to tabreturn.com -- a web portfolio of Tristan Bunn's work.</h1>
+  <h1 style="margin-right:-6px">Welcome to tabreturn.com -- a web portfolio of Tristan Bunn's work.</h1>
   <p>
   I kicked-off my web design career back in the days of PlayStation 1, grunge
   music, and dial-up modems. Since then, I've worked on a diverse range of
@@ -30,7 +30,7 @@ title:  latest
   </p>
 </div>
 
-<h1 style="margin: 0 0.8em">latest work</h1>
+<h1 id="pageTitle">latest work</h1>
 
 {% assign featureable = site.posts | where_exp:"post", "post.nonfeature != true" %}
 {% for post in featureable limit:5 %}

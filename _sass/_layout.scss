@@ -5,6 +5,10 @@
   min-height: 350px;
 }
 
+h1#pageTitle {
+  margin-left: 0.8em
+}
+
 header {
   font-family: $font-mono;
   padding: 12px;
@@ -34,6 +38,7 @@ header {
   .tabreturn {
     cursor: default;
     float: left;
+    margin-bottom: 1.6em;
     margin-top: -1em;
 
     a {
@@ -96,10 +101,6 @@ header {
     margin-top: 0.4em;
     overflow-wrap: break-word;
     white-space: pre-wrap;
-  }
-
-  &:first-of-type {
-    margin-top: -1em;
   }
 
   li {
