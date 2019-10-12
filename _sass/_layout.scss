@@ -36,13 +36,11 @@ header {
     float: left;
     margin-top: -1em;
 
-    h1 {
+    a {
+      color: inherit;
       font-size: 1.8em;
+      font-weight: normal;
       padding: 0;
-
-      a {
-        color: inherit;
-      }
     }
 
     em {
@@ -212,10 +210,6 @@ header {
   p {
     font-size: 0.95em;
     line-height: 1.75em;
-  }
-
-  > p:first-child {
-    background-color: $color-base-light;
   }
 }
 
