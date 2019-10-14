@@ -73,6 +73,14 @@ header {
     list-style-type: none;
     margin: 0;
     padding: 2px 8px;
+
+    &:hover {
+      background-color: $color-base-light;
+    }
+
+    &:hover a {
+      color: #FFF;
+    }
   }
 
   .sel {
@@ -171,14 +179,7 @@ header {
       display: inline;
       float: none;
       line-height: 3em;
-
-      &:hover {
-        background-color: $color-base-light;
-      }
-
-      &:hover a {
-        color: #FFF;
-      }
+      pointer-events: none;
     }
   }
 
