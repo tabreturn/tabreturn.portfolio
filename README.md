@@ -1,5 +1,6 @@
 # tabreturn.portfolio
-Jekyll portfolio template
+
+*Jekyll portfolio template*
 
 [live demo](http://portfolio.tabreturn.com/)
 
