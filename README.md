@@ -1,6 +1,6 @@
 # tabreturn.portfolio
 Jekyll portfolio template
 
-![screenshot](screenshot.png)
+[live demo](http://portfolio.tabreturn.com/)
 
-[demo](http://portfolio.tabreturn.com/)
+![screenshot](screenshot.png)
