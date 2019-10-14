@@ -1,5 +1,5 @@
 ---
-categories: research
+categories: interactive
 image:      images/dining_at_lindy's.png
 view:       https://github.com/tabreturn/dining-at-lindys
 media:      LÖVE 2D game engine (Lua)

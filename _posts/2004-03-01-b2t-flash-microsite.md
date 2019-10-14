@@ -1,5 +1,5 @@
 ---
-categories: web
+categories: interactive
 image:      images/b2t-flash-microsite.png
 media:      Design & development, Flash
 published:  false

@@ -1,6 +1,13 @@
-rm -r about.html cv.html css favicon.png identity.html illustration.html images print.html research.html web.html;
+rm -r about.html cv.html css favicon.png interactive.html images lecturing.html not-so-interactive.html;
 cd tabreturn.portfolio;
 git pull;
 ~/.gem/ruby/2.5.0/bin/jekyll build;
 cd ..;
-cp -r tabreturn.portfolio/_site/about.html tabreturn.portfolio/_site/css tabreturn.portfolio/_site/favicon.png tabreturn.portfolio/_site/cv.html tabreturn.portfolio/_site/identity.html tabreturn.portfolio/_site/illustration.html tabreturn.portfolio/_site/images tabreturn.portfolio/_site/lecturing.html tabreturn.portfolio/_site/print.html tabreturn.portfolio/_site/research.html tabreturn.portfolio/_site/web.html ./
+cp -r tabreturn.portfolio/_site/about.html ./
+cp -r tabreturn.portfolio/_site/cv.html ./
+cp -r tabreturn.portfolio/_site/css ./
+cp -r tabreturn.portfolio/_site/favicon.png ./
+cp -r tabreturn.portfolio/_site/interactive.html ./
+cp -r tabreturn.portfolio/_site/images ./
+cp -r tabreturn.portfolio/_site/lecturing.html ./
+cp -r tabreturn.portfolio/_site/not-so-interactive.html ./

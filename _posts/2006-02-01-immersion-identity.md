@@ -1,5 +1,5 @@
 ---
-categories: identity
+categories: not-so-interactive
 image:      images/immersion-identity.png
 media:      CMYK, matte-laminated
 ---

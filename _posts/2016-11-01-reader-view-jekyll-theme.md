@@ -1,5 +1,5 @@
 ---
-categories: research
+categories: interactive
 image:      images/reader-view-jekyll-theme.png
 view:       https://github.com/tabreturn/tabreturn.github.io
 type:       url

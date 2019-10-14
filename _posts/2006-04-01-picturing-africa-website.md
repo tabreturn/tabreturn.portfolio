@@ -1,5 +1,5 @@
 ---
-categories: web
+categories: interactive
 image:      images/picturing-africa-website.png
 media:      Design & development, HTML, CSS, outsourced back-end
 published:  false

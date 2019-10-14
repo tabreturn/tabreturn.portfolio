@@ -1,5 +1,5 @@
 ---
-categories: illustration
+categories: not-so-interactive
 image:      images/deadbolt-&-chuckie.png
 view:       images/full_view/deadbolt-&-chuckie.png
 type:       img

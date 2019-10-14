@@ -1,5 +1,5 @@
 ---
-categories: illustration
+categories: not-so-interactive
 image:      images/massey-cmp.png
 media:      Raster & vector illustration
 published:  false

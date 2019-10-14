@@ -1,5 +1,5 @@
 ---
-categories: print
+categories: not-so-interactive
 image:      images/halfprice-taking-life-seriously-cd-cover.png
 media:      Design & illustration, CMYK, gloss finish
 ---

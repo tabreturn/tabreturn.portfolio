@@ -1,5 +1,5 @@
 ---
-categories: illustration
+categories: not-so-interactive
 image:      images/concept-interactive-desktop-wallpaper.png
 media:      3D, raster & vector illustration
 published:  false

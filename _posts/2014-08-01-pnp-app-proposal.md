@@ -1,5 +1,5 @@
 ---
-categories: web
+categories: interactive
 image:      images/pnp-app-proposal.png
 media:      UI/UX design
 ---

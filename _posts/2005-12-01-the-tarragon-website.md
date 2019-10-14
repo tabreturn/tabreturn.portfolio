@@ -1,5 +1,5 @@
 ---
-categories: web
+categories: interactive
 image:      images/the-tarragon-website.png
 view:       http://www.thetarragon.com
 media:      Design & development, HTML, CSS, Flash

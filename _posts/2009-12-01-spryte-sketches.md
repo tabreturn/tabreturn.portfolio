@@ -1,5 +1,5 @@
 ---
-categories: research
+categories: not-so-interactive
 image:      images/spryte-sketches.png
 media:      Code art
 ---

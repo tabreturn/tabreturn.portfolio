@@ -1,5 +1,5 @@
 ---
-categories: illustration
+categories: not-so-interactive
 image:      images/kartal-game-over-desktop-wallpaper.png
 media:      3D, generative design, raster & vector illustration
 ---

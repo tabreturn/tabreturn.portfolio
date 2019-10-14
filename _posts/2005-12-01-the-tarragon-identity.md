@@ -1,5 +1,5 @@
 ---
-categories: identity
+categories: not-so-interactive
 image:      images/the-tarragon-identity.png
 media:      CMYK, gloss finish
 published:  false

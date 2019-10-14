@@ -1,5 +1,5 @@
 ---
-categories: identity
+categories: not-so-interactive
 image:      images/signature-online-identity.png
 media:      CMYK, bronze foil, matte-laminated
 ---

@@ -1,5 +1,5 @@
 ---
-categories: research
+categories: interactive
 image:      images/papertracker.png
 view:       https://github.com/tabreturn/webscript-papertracker
 media:      JavaScript, OpenCV, Python

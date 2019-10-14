@@ -1,5 +1,5 @@
 ---
-categories: research
+categories: interactive
 image:      images/pensioner.png
 view:       https://github.com/tabreturn/webscript-pensioner
 type:       url

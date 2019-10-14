@@ -1,5 +1,5 @@
 ---
-categories: illustration
+categories: not-so-interactive
 image:      images/maya-robot.png
 view:       images/full_view/maya-robot.png
 type:       img

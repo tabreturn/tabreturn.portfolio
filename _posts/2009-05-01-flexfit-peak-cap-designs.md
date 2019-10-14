@@ -1,5 +1,5 @@
 ---
-categories: illustration
+categories: not-so-interactive
 image:      images/flexfit-peak-cap-designs.png
 media:      Vector artwork, screen printing, embroidery
 ---

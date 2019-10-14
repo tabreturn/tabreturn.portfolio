@@ -1,5 +1,5 @@
 ---
-categories: identity
+categories: not-so-interactive
 image:      images/green-circle-identity.png
 media:      Print & digital branding
 ---

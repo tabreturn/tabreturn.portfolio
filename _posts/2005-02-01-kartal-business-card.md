@@ -1,5 +1,5 @@
 ---
-categories: identity
+categories: not-so-interactive
 image:      images/kartal-business-card.png
 media:      CMYK, matte-laminated
 ---

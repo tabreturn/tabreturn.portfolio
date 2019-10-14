@@ -1,5 +1,5 @@
 ---
-categories: illustration
+categories: not-so-interactive
 image:      images/seedofdiscontent.blogspot-comic.png
 media:      Vector illustration
 ---

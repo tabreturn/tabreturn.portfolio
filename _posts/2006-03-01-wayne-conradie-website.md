@@ -1,5 +1,5 @@
 ---
-categories: web
+categories: interactive
 image:      images/wayne-conradie-website.png
 media:      Design & development, HTML, CSS, Flash
 published:  false

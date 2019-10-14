@@ -1,5 +1,5 @@
 ---
-categories: web
+categories: interactive
 image:      images/open-jam-aotearoa.png
 view:       https://openjam.cmp.ac.nz/
 type:       url

@@ -1,5 +1,5 @@
 ---
-categories: print
+categories: not-so-interactive
 image:      images/immersion-folder.png
 media:      CMYK, gloss finish
 ---

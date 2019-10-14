@@ -1,5 +1,5 @@
 ---
-categories: research
+categories: not-so-interactive
 image:      images/retro-gaming-cabinet-coffee-table.png
 view:       images/full_view/retro-gaming-cabinet-coffee-table.png
 type:       img

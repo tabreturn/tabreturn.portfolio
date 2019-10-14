@@ -1,5 +1,5 @@
 ---
-categories: research
+categories: not-so-interactive
 image:      images/processing.py-aquatics.png
 view:       https://github.com/tabreturn/processing.py-digital-aquatics
 media:      Processing.py

@@ -1,5 +1,5 @@
 ---
-categories: web
+categories: interactive
 image:      images/immersion-website.png
 media:      Design & development, HTML, CSS, Flash
 published:  false
