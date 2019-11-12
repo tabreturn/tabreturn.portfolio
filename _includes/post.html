@@ -8,7 +8,14 @@
       {{ post.media }}
     </p>
     {% if post.view %}
-      <a href="{{ post.view }}" {% if post.type == 'img' %} data-lightbox="{{ post.title }}" {% endif %} >view</a>
+      {% if post.view[0] %}
+        <a href="{{ post.view[0] }}" data-lightbox="{{ post.title }}">view</a>
+        {% for view in post.view offset:1 %}
+          <a href="{{ view }}" data-lightbox="{{ post.title }}" style="display:none">view</a>
+        {% endfor %}
+      {% else %}
+        <a href="{{ post.view }}">view</a>
+      {% endif %}
     {% endif %}
   </div>
 </div>

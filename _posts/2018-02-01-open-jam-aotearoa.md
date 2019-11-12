@@ -1,9 +1,8 @@
 ---
 categories: interactive
 image:      images/open-jam-aotearoa.png
-view:       https://openjam.cmp.ac.nz/
-type:       url
 media:      Design & development, HTML, CSS, PHP
+view:       https://openjam.cmp.ac.nz/
 ---
 Website for the inaugural Open Jam Aotearea event, held in Wellington NZ.
 
