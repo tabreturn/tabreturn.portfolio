@@ -9,5 +9,4 @@ view:
 A comic based around two anthropomorphic characters -- an otter and a honey
 badger. This 36 page, second issue focusses on the honey badger character.
 
-Mary Guo: cover art and illustration. Me (Tbun): stories, layout, some
-illustration.
+Mary Guo: cover art and illustration. Me: stories, layout, some illustration.
