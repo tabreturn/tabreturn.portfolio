@@ -1,7 +1,7 @@
 ---
 categories: interactive
 image:      images/papertracker.png
-view:       https://github.com/tabreturn/webscript-papertracker
+view:       https://github.com/tabreturn/papertracker
 media:      JavaScript, OpenCV, Python
 ---
 An educational platform for engaging with music and technology. The focus is on
