@@ -7,7 +7,8 @@ view:
 - images/full_view/lonely-artist,-issue-1-1.png
 - images/full_view/lonely-artist,-issue-1-2.png
 ---
-A comic based around two anthropomorphic characters -- an otter and a honey
-badger. This 36 page, first issue focusses on the otter character.
+A comic based around two anthropomorphic characters -- an awkward otter and
+grumpy honey badger. 36-page, first issue focussing on otter.
 
-Mary Guo: cover art and illustration. Me: stories, layout, some illustration.
+Mary Guo: cover art and illustration.  
+Me: stories, layout, some illustration.
