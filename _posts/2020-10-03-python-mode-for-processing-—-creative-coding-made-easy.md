@@ -5,5 +5,5 @@ media:      Book
 nonfeature: true
 <!--view:       https://nostarch.com/-->
 ---
-My new book is coming soon. Publisher: No Starch Press.
+My new book is out soon. Publisher: [No Starch Press](https://nostarch.com/).
 
