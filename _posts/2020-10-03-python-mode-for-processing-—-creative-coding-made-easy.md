@@ -1,5 +1,5 @@
 ---
-categories: lecturing
+categories: not-so-interactive
 image:      images/python-mode-for-processing.png
 media:      Book
 nonfeature: true
