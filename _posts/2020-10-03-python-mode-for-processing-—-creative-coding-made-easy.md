@@ -5,5 +5,5 @@ media:      Book
 nonfeature: true
 <!--view:       https://nostarch.com/-->
 ---
-My new book on creative coding with Python is out soon. Publisher: [No Starch Press](https://nostarch.com/).
+My new book on creative coding with Python is out soon. Watch this space. Publisher: [No Starch Press](https://nostarch.com/).
 
