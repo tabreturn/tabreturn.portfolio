@@ -2,6 +2,7 @@
 categories: lecturing
 image:      images/permu-pong.png
 media:      Processing.py, Arduino
+view:       https://github.com/tabreturn/tutorial-permu-pong
 nonfeature: true
 ---
 
