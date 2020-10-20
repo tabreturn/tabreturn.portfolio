@@ -6,8 +6,6 @@ view:       https://github.com/tabreturn/tutorial-permu-pong
 nonfeature: true
 ---
 
-A Pong of many permutations.
-
-Provides multiple input and game parameters, allowing students to generate 
+Provides multiple input and game parameters, allowing users to generate 
 random variations of Pong by playing with different combinations of
 Processing variables and Arduino inputs.
