@@ -8,6 +8,6 @@ nonfeature: true
 
 A Pong of many permutations.
 
-Provides multiple input and game parameters, thereby allowing students to
-generate random variations of Pong by playing with different combinations of
+Provides multiple input and game parameters, allowing students to generate 
+random variations of Pong by playing with different combinations of
 Processing variables and Arduino inputs.
