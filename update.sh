@@ -1,7 +1,7 @@
 rm -r about.html css favicon.png interactive.html images lecturing.html not-so-interactive.html resume.html;
 cd tabreturn.portfolio;
 git pull;
-~/.gem/ruby/2.5.0/bin/jekyll build;
+~/.gem/ruby/2.7.0/bin/jekyll build;
 cd ..;
 cp -r tabreturn.portfolio/_site/about.html ./;
 cp -r tabreturn.portfolio/_site/css ./;
