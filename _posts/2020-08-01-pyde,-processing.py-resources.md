@@ -3,8 +3,8 @@ categories: interactive
 image:      images/pyde.png
 media:      Built with pyp5js, Jinja, and Pygments
 nonfeature: true
-view:       http://pyde.tabreturn.com/
+view:       http://pyde.org/
 ---
-A collection of Processing Python Mode resources. This is a hand-rolled static 
-site generator. It transcribes processing.py files to p5.js. I'll be adding 
+A collection of Processing Python Mode resources. This is a hand-rolled static
+site generator. It transcribes processing.py files to p5.js. I'll be adding
 sketches, resources, and new features over the months to come.
