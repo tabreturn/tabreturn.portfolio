@@ -4,7 +4,7 @@ image:      images/lonely-artist-book.png
 media:      Print & digital comic
 nonfeature: true
 view:
-- images/full_view/lonely-artist,-issue-2-1.png
+- images/full_view/lonely-artist,-issue-2-2.png
 - images/full_view/lonely-artist,-issue-3.png
 ---
 A comic about two anthropomorphic characters – an awkward otter and grumpy 
