@@ -2,7 +2,7 @@
 categories: not-so-interactive
 image:      images/lonely-artist,-issue-3.png
 media:      Print & digital comic
-nonfeature: true
+nonfeature: false
 view:
 - images/full_view/lonely-artist,-issue-3.png
 ---
