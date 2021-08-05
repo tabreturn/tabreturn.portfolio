@@ -2,7 +2,8 @@
 categories: not-so-interactive
 image:      images/lonely-artist,-issue-1.png
 media:      Print & digital comic
-nonfeature: false
+nonfeature: true
+published:  false
 view:
 - images/full_view/lonely-artist,-issue-1-1.png
 - images/full_view/lonely-artist,-issue-1-2.png
