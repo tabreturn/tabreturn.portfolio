@@ -1,5 +1,5 @@
 ---
-categories: not-so-interactive
+categories: lecturing
 image:      images/learn-python-visually.png
 media:      Book
 <!--view:       https://nostarch.com/learn-python-visually-->
