@@ -9,7 +9,7 @@ view:
 ---
 A comic about two anthropomorphic characters – an awkward otter and grumpy 
 honey badger. 100-page collected edition published by 
-[CHROMA](https://chroma.nz/). 
+[CHROMA](https://chroma.nz/collections/comics/products/lonely-artist). 
 
 Mary Guo: cover art and illustration.  
 Me: stories, layout, some illustration.
