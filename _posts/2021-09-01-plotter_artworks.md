@@ -1,6 +1,6 @@
 ---
 categories: not-so-interactive
-image:      images/plotter.png
+image:      images/plotter_artworks.png
 media:      Pen and paper
 nonfeature: false
 view:
