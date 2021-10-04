@@ -11,7 +11,8 @@ view:
 - images/full_view/plotter-artworks-04.png
 - images/full_view/plotter-artworks-05.png
 - images/full_view/plotter-artworks-06.png
-- images/full_view/plotter-artworks-07.png
+- images/full_view/plotter-artworks-07.1.png
+- images/full_view/plotter-artworks-07.2.png
 - images/full_view/plotter-artworks-08.1.png
 - images/full_view/plotter-artworks-08.2.png
 - images/full_view/plotter-artworks-09.png
