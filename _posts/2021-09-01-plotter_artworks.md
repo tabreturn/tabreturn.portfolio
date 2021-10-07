@@ -19,6 +19,7 @@ view:
 - images/full_view/plotter-artworks-10.1.png
 - images/full_view/plotter-artworks-10.2.png
 - images/full_view/plotter-artworks-11.png
+- images/full_view/plotter-artworks-12.png
 ---
 Artworks coded in Processing Python Mode & py5, and plotted using an AxiDraw (A3). 
 
