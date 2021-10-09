@@ -24,4 +24,4 @@ view:
 ---
 Artworks coded in Processing Python Mode & py5, plotted using a 2-axis pen plotter. 
 
-This series explores wave motion.
+This series explores themes of waves, radials, and relics.
