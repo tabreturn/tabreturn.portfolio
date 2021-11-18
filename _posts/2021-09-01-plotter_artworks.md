@@ -21,6 +21,8 @@ view:
 - images/full_view/plotter-artworks-11.png
 - images/full_view/plotter-artworks-12.png
 - images/full_view/plotter-artworks-13.png
+- images/full_view/plotter-artworks-14.1.png
+- images/full_view/plotter-artworks-14.2.png
 ---
 Artworks coded in Processing Python Mode & py5, plotted using a 2-axis pen plotter. 
 
