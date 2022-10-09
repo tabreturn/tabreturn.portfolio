@@ -14,7 +14,7 @@ $color-base:         #1C1C1C;
 $color-base-light:   lighten($color-base, 25%);
 $color-base-lighter: lighten($color-base, 45%);
 
-$desktop:           960px;
+$desktop:            960px;
 
 @import
   "base",
