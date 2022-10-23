@@ -27,16 +27,16 @@ h1 {
   background-color: $color-base-light;
   color: $color-base;
   font-family: $font-mono;
-  font-size: 1em;
+  font-size: 1.1em;
   font-weight: bold;
   margin-right: 12px;
-  max-width: 776px;
+  max-width: 965px;
 }
 
 h2 {
   color: $color-secondary;
   font-family: $font-mono;
-  font-size: 0.85em;
+  font-size: 0.95em;
   margin: 0;
   margin-top: 12px;
 }
@@ -44,7 +44,7 @@ h2 {
 h3 {
   color: $color-base-light;
   font-family: $font-mono;
-  font-size: 0.85em;
+  font-size: 0.9em;
   font-style: italic;
   margin: 0;
 }

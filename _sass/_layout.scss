@@ -2,7 +2,7 @@
   margin-left: auto;
   margin-right: auto;
   margin-top: -2px;
-  max-width: 812px;
+  max-width: 1000px;
   min-height: 350px;
 }
 
@@ -30,10 +30,10 @@ header {
     background-size: 55%;
     border-right: 1px solid $color-secondary;
     float: left;
-    height: 75px;
+    height: 84px;
     margin-right: 1em;
     margin-top: -12px;
-    width: 75px;
+    width: 84px;
   }
 
   .tabreturn {
@@ -47,12 +47,12 @@ header {
       display: block;
       font-size: 1.8em;
       font-weight: bold;
-      padding: 0.9em 0 0.5em 0;
+      padding: 0.9em 0 0.7em 0;
     }
 
     em {
       transition: color 0.25s;
-      font-size: 0.75rem;
+      font-size: 0.85rem;
 
       &:hover {
         color: white;
@@ -64,6 +64,7 @@ header {
 
 #mainNav {
   float: right;
+  font-size: 1.1em;
   margin: 0;
   margin: 1em 0;
   margin-bottom: 1.5em;
@@ -72,7 +73,7 @@ header {
   li {
     display: block;
     list-style-type: none;
-    margin: 0;
+    margin: 0.2em 0;
     padding: 2px 8px;
 
     &:hover {
@@ -93,12 +94,12 @@ header {
   font-family: $font-mono;
   margin-left: auto;
   margin-right: auto;
-  max-width: 786px;
+  max-width: 976px;
   overflow: hidden;
   padding: 8px 0 8px 0;
 
   &::before {
-    content: ">>\A------------------------------------------------------------------------------------------";
+    content: ">>\A----------------------------------------------------------------------------------------------------------------";
     display: block;
     margin-top: 0.4em;
     white-space: pre-wrap;
@@ -119,7 +120,7 @@ header {
 
   .entryImage {
     float: right;
-    max-width: 500px;
+    max-width: 600px;
     padding: 0.2em 10px 0.2em 0;
 
     img {
@@ -133,12 +134,13 @@ header {
     cursor: default;
     float: left;
     padding-right: 20px;
-    width: 256px;
+    padding-top: 0.3em;
+    width: 345px;
   }
 
   .entryInfo p, .entryInfo a {
     font-family: $font-sans;
-    font-size: 0.75rem;
+    font-size: 0.8rem;
   }
 
   .entryInfo a {
@@ -154,6 +156,7 @@ header {
 #top {
   display: block;
   font-family: $font-mono;
+  font-size: 1.1em;
   padding: 1em;
   text-align: right;
 }
@@ -169,7 +172,7 @@ header {
   }
 
   #mainNav {
-    font-size: 0.9em;
+    font-size: 1em;
     max-width: 410px;
     margin: auto;
     margin-bottom: 1.5em;
