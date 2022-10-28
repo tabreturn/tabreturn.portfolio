@@ -108,14 +108,14 @@ header {
   li {
     font-size: 0.85em;
     margin: 0.5em 0;
-
-    &:before {
-      content: "__  ";
-    }
   }
 
   ul {
     padding: 0;
+
+    li:before {
+      content: "__  ";
+    }
   }
 
   .entryImage {
