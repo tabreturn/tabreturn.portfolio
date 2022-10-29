@@ -1,10 +1,11 @@
-rm -r about.html css favicon.png interactive.html images lecturing.html not-so-interactive.html resume.html;
+rm -r about.html css cv favicon.png interactive.html images lecturing.html not-so-interactive.html resume.html;
 cd tabreturn.portfolio;
 git pull;
 jekyll build;
 cd ..;
 cp -r tabreturn.portfolio/_site/about.html ./;
 cp -r tabreturn.portfolio/_site/css ./;
+cp -r tabreturn.portfolio/_site/cv ./;
 cp -r tabreturn.portfolio/_site/favicon.png ./;
 cp -r tabreturn.portfolio/_site/interactive.html ./;
 cp -r tabreturn.portfolio/_site/images ./;
