@@ -23,6 +23,10 @@ a {
   }
 }
 
+h1, h2, h3 {
+  text-transform: lowercase;
+}
+
 h1 {
   background-color: $color-base-light;
   color: $color-base;
