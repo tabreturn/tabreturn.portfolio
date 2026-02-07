@@ -2,7 +2,7 @@
 categories: interactive
 image:      images/nature-of-code-port.png
 view:       https://natureofcode.com/resources/#ports-of-code-examples-to-other-languages
-media:      Py5, Python
+media:      py5, Python
 nonfeature: false
 published:  false
 ---
