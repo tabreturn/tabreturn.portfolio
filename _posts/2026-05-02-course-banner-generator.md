@@ -1,7 +1,6 @@
 ---
 categories: lecturing
-image:      images/course-banner-generator
-view:       https://github.com/tabreturn/course-banner.png
+image:      images/course-banner-generator.png
 media:      Python, drawsvg
 nonfeature: false
 published:  true
